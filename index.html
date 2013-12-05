@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-	<title>Card-o-Matic</title>
-	
-	<link rel="stylesheet" href="css/main.css" type="text/css">
-	<link rel="stylesheet" href="css/features.css" type="text/css">
+	<title>Xylophone</title>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/features.css" type="text/css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	
 </head>
 
-
 <body>
 
-<div id='wrapper'>
+	<h1>Xylophone</h1>
 
-	<h1>Card-o-Matic</h1>
+	<br><br><br>
 
-	<!-- Left side with all the controls -->
-	<div id='controls'>
+	<div id='buttons'>
 	
-		<!-- Color picker -->
-			<h2>Pick a color</h2>
-								
-		<!-- Texture picture -->
-			<h2>Pick a texture</h2>
-									
-		<!-- Message -->	
-			<h2>Pick a message</h2>
-					
-		<!-- Recipient -->	
-			<h2>Dear...</h2>	
-			
-		<!-- Sticker picker -->	
-			<h2>Click a sticker to add</h2>
-			
-			
-	</div>
-	
-	<!-- Right side with the live preview -->
-	<div id='preview'>
-	
-		<div id='card-background'>
-			<div id='canvas'>
-				<div id='message-output'></div>
-				<div id='recipient-output'></div>
-			</div>
-		</div>
+		<div class='offset'> </div>
 		
-		<!-- Buttons -->
-		<input type='button' id='refresh-btn' value='Start over'>
-		<input type='button' id='print-btn' value='Print'>
+		<div class='blacks' id='gb3'> </div>
+		<div class='blacks' id='ab3'> </div>
+		<div class='blacks' id='bb3'> </div>
+	
+		<div class='blanks'> </div>
+	
+		<div class='blacks' id='db4'> </div>
+		<div class='blacks' id='eb4'> </div>
+	
+		<div class='blanks'> </div>
+	
+		<div class='blacks' id='gb4'> </div>
+		<div class='blacks' id='ab4'> </div>
+		<div class='blacks' id='bb4'> </div>
+	
+		<div class='blanks'> </div>
+	
+		<div class='blacks' id='db5'> </div>
+		<div class='blacks' id='eb5'> </div>
+	
+		<br><br><br><br><br><br><br><br>
+
+		<div class='whites' id='f3'> </div>
+		<div class='whites' id='g3'> </div>
+		<div class='whites' id='a3'> </div>
+		<div class='whites' id='b3'> </div>
+		<div class='whites' id='c4'> </div>
+		<div class='whites' id='d4'> </div>
+		<div class='whites' id='e4'> </div>
+		<div class='whites' id='f4'> </div>
+		<div class='whites' id='g4'> </div>
+		<div class='whites' id='a4'> </div>
+		<div class='whites' id='b4'> </div>
+		<div class='whites' id='c5'> </div>
+		<div class='whites' id='d5'> </div>
+		<div class='whites' id='e5'> </div>
+
 	</div>
 	
-</div>
-
-<script src="js/card-o-matic.js"></script>
+	<script src="js/riffwave.js"></script>
+	<script src="js/xylophone.js"></script>
 	
 </body>
 

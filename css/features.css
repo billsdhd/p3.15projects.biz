@@ -1,0 +1,44 @@
+.whites {
+        width:34px;
+        height:140px;
+        float:left;
+        margin-right:3px;
+        cursor:pointer;
+        background-color:white;
+        border-style:solid;
+        border-color:gray;
+}
+
+.blacks {
+        width:40px;
+        height:140px;
+        float:left;
+        margin-right:3px;
+        cursor:pointer;
+        background-color:black;
+}
+
+.blanks {
+        width:40px;
+        height:140px;
+        float:left;
+        margin-right:3px;
+        cursor:pointer;
+        background-color:white;
+}
+
+.offset {
+        width:20px;
+        height:140px;
+        float:left;
+        margin-right:3px;
+        cursor:pointer;
+        background-color:white;
+}
+
+#buttons {
+		width:610px;
+		margin:0 
+		auto;
+}
+
