@@ -1,14 +1,14 @@
 var pi=3.14159265359
 var rate = 44100;
 
-function playNote(f) {
+function playNote(h) {
 
 	var waves = [] 
 
 	//make a PCM wave form for xylophone sound
 	for (var i=0; i < rate ; i++) {
 		var t = i / rate;
-		var w = 2 * pi * f * t;
+		var w = 2 * pi * h * t;
 		waves[i] = 128 + Math.round( 127 * ( Math.cos(w + 8 * Math.sin(w*2) 
 						* Math.exp(-t * 4) ) * Math.exp(-t *3)));
 	};
