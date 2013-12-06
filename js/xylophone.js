@@ -16,9 +16,10 @@ function playNote(h) {
 	{
 
 		var waves = '';
-		for(k = l = 22050; k--;) {
-			waves += String.fromCharCode(Math.sin(k/l*h*2*Math.PI)
+		for(k = l = 11025; k--;) {
+			waves += String.fromCharCode(Math.sin(k/l*h*Math.PI)
 		    * Math.min((l-k)/32,k/l)*128 + 128);
+
 		}
 		var audio = new Audio('data:audio/wav;base64,UklGRjUrAABXQVZFZm10IBAAAAA\
 							BAAEARKwAAESsAAABAAgAZGF0YREr'+btoa('\0\5'+waves));
