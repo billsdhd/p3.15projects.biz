@@ -1,12 +1,11 @@
 .whites {
-        width:34px;
+        width:40px;
         height:140px;
         float:left;
         margin-right:3px;
         cursor:pointer;
         background-color:white;
-        border-style:solid;
-        border-color:gray;
+
 }
 
 .blacks {
@@ -15,7 +14,7 @@
         float:left;
         margin-right:3px;
         cursor:pointer;
-        background-color:black;
+        background-color:#444444;
         color: white;
 }
 
@@ -25,7 +24,7 @@
         float:left;
         margin-right:3px;
         cursor:pointer;
-        background-color:white;
+        background-color:gray;
 }
 
 .offset {
@@ -34,11 +33,11 @@
         float:left;
         margin-right:3px;
         cursor:pointer;
-        background-color:white;
+        background-color:gray;
 }
 
 #buttons {
-		width:610px;
+		width:650px;
 		margin:0 
 		auto;
 }
@@ -47,5 +46,11 @@
 #notes {
 		width:700px;
 		margin:100px 
+		auto;
+}
+
+#instruction {
+		width:700px;
+		margin:0px 
 		auto;
 }

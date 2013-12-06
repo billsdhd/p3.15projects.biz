@@ -4,17 +4,21 @@ General
 * {
 	font-family:Georgia;
 	color:#333;
+	background-color: gray;
 }
 
-h1 {	
+h1 {
+	font-family:fantasy ;	
 	text-align:center;
-	font-size:30px;
+	font-size:60px;
 	margin-top:25px;
 	margin-bottom:25px;
 }
 
 h2 {
-	font-size:15px;
+	font-family: cursive;
+	text-align:center;
+	font-size:30px;
 	margin-top:30px;
 	margin-bottom:5px;
 }
@@ -22,3 +26,4 @@ h2 {
 small {
 	font-family:verdana;
 }
+
